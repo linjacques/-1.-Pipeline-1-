@@ -1,0 +1,4 @@
+sqlalchemy
+mysqlclient
+config
+python-multipart
