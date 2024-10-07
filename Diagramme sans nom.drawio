@@ -1,76 +1,50 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.17">
   <diagram name="Page-1" id="DocJXISTx0jr9to8KYxa">
-    <mxGraphModel dx="839" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="772" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Data Analytics" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="123" y="404" width="364" height="99" as="geometry" />
+        <mxCell id="5" value="Fichiers CSV" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="60" width="138" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Data Storage" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="140" y="255" width="339" height="99" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="8" y="8" width="585" height="197" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="Database 1" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="43" y="33" width="138" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="ETL Process" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="244" y="132" width="112" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="Database 3" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="419" y="33" width="138" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="S3" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="175" y="280" width="76" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="10" value="Redshift" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="327" y="280" width="117" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="11" value="Athena" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="158" y="429" width="110" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="12" value="QuickSight" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="318" y="429" width="134" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.19;" parent="1" source="5" target="6" edge="1">
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.19;" parent="1" source="5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="112" y="107" />
             </Array>
+            <mxPoint x="230" y="179.31000000000006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.19;" parent="1" source="8" target="6" edge="1">
+        <mxCell id="0_7SciLD_eD40a65a6Vo-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0_7SciLD_eD40a65a6Vo-48">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="488" y="107" />
-            </Array>
+            <mxPoint x="314.68965517241384" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=0.99;entryX=0.5;entryY=0.01;" parent="1" source="6" target="9" edge="1">
+        <mxCell id="0_7SciLD_eD40a65a6Vo-48" value="&lt;div&gt;DataLake :&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AWS S3&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="150" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0_7SciLD_eD40a65a6Vo-49" value="&lt;div&gt;DataWarehouse :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Delta Lake" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="444" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0_7SciLD_eD40a65a6Vo-50" value="Bronze" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0_7SciLD_eD40a65a6Vo-51" value="Argent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="444" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0_7SciLD_eD40a65a6Vo-52" value="Or" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0_7SciLD_eD40a65a6Vo-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0_7SciLD_eD40a65a6Vo-53">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="213" y="205" />
-            </Array>
+            <mxPoint x="309.8620689655173" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=0.99;entryX=0.5;entryY=0.01;" parent="1" source="6" target="10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="385" y="205" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0_7SciLD_eD40a65a6Vo-53" value="AWS Lambda" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="9" target="11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="10" target="12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="0_7SciLD_eD40a65a6Vo-57" value="&lt;div&gt;DataWarehouse :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;SnowFlake" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="690" width="290" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
